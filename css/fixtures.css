@@ -1,0 +1,22 @@
+.fixtures
+{
+	background: black;
+}
+
+.fixtures table
+{
+	margin-top: 2%;
+}
+.fixtures .container
+{
+	margin-top: 10%;
+	
+}
+.fixtures .jumbotron
+{
+	text-align: center;
+	background: url("images/royal.jpg") no-repeat fixed center;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 0
+}

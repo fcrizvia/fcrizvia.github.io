@@ -1,0 +1,37 @@
+.contact
+{
+	background: black;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+}
+
+.contact li	
+{
+	list-style: none;
+}
+
+.contact .container
+{
+	margin-top: 7%;
+}
+
+.contact #cardtitle
+{
+	color: white;
+	font-weight: 600;
+	margin-top: 5%;
+	background: #00112d;
+}
+
+.contact #cardfooter
+{
+	color: white;
+	font-weight: 600;
+	text-align:center;
+}
+
+.contact #hr
+{
+	color: white;
+}

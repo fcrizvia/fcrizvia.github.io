@@ -1,0 +1,41 @@
+@import url("bootstrap.min.css");
+@import url("aboutus.css");
+@import url("contact.css");
+@import url("fixtures.css");
+@import url("gallery.css");
+@import url("home.css");
+@import url("records.css");
+
+.navbar
+{
+	background: #00112d;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.nav-link
+{
+	width: 100%;
+	text-align: center;
+	margin-right: 50px;
+	color: white;
+}
+
+#links
+{
+	padding-left: 50px;
+	display: inline-block;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+#linkul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+#link
+{
+	padding-left: 50%;
+}

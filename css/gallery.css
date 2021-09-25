@@ -1,0 +1,32 @@
+.gallery-body
+{
+	background: black;	
+}
+.gallery-container
+{
+	margin-top: 7%;
+	text-align:center;
+}
+.gallery-thumbnail
+{
+	margin-top: 1%;
+}
+
+#galleryJumbotron
+{
+	background: url("images/royal.jpg") no-repeat fixed center;
+	background-color: rgb(0, 0, 43);
+	font-weight:800;
+	color: white;
+	text-align:center;
+}
+#galleryJumbotron h1
+{
+	font-weight: 600;
+	font-size: 40px;
+}
+#galleryImage
+{
+	height: 100%;
+	width: 100%;
+}

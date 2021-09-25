@@ -1,0 +1,39 @@
+.home
+{
+	background: url("images/Lawrencium.jpg") no-repeat fixed center;
+	background-size: cover;
+	height: 100vh;
+	/* background-attachment: fixed; */
+}
+
+.home .jumbotron
+{
+	background: none;
+	background-attachment: fixed;
+	position: fixed;
+}
+
+.home #h1
+{
+	font-size:60px;
+	color: black;
+	font-weight: 600;
+	/*border: 2px solid red;*/
+	padding-left: 50px;
+	text-shadow: 0 0 3px black;
+}
+
+.home #hr
+{
+	width: 700px;
+	margin-right: 1000px;
+	padding-right: 50px;
+	/*border: 2px solid purple;*/
+	float: left;
+}
+
+.home #h1
+{
+	color: white;
+	text-shadow: 0 0 3px black;
+}
