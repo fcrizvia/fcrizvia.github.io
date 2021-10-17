@@ -2,492 +2,455 @@
 <html>
 <head>
 	<title>2018</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/records.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/fixtures.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../js/popper.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script> 
+        $(function(){
+          $("#header").load("../header.html");
+        });
+    </script> 
 </head>
 <body>
 
-	<div>
-		<nav class="navbar  navbar-expand-sm fixed-top">
-		<div class="navbar-header">
-			<a id="navhead" href="#" name="top" class="navbar-brand"><img src="images/logo.jpg" alt="logo" style="width:40px; padding-right: 3px;">FC RIZVIA</a>
+	<header>
+		<div id="header"></div>
+	</header>
 
-			<!-- Toggler/collapsibe Button -->
-  		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-
-		</div>
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav nav-pills">
-				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-				<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-				<li class="nav-item"><a class="nav-link" href="squad.html">Squad</a></li>
-				
-				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white; margin-right:25px;">
-    				Fixtures</a>
-      				<div class="dropdown-menu">
-						<a class="dropdown-item" href="fixtures2021.html">2021</a>
-						<a class="dropdown-item" href="fixtures2020.html">2020</a>
-        				<a class="dropdown-item" href="fixtures2019.html">2019</a>
-        				<a class="dropdown-item active" href="fixtures2018.html">2018</a>
-        				<a class="dropdown-item" href="fixtures2017.html">2017</a>
-        				<a class="dropdown-item" href="allfixtures.html">All-fixtures</a>
-      				</div>
-    			</li>
-
-				<!-- Dropdown -->
-    			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white;">
-    				Stats</a>
-      				<div class="dropdown-menu">
-						<a class="dropdown-item" href="2021.html">2021</a>
-        				<a class="dropdown-item" href="2020.html">2020</a>
-        				<a class="dropdown-item" href="2019.html">2019</a>
-        				<a class="dropdown-item active" href="">2018</a>
-        				<a class="dropdown-item" href="2017.html">2017</a>
-        				<a class="dropdown-item" href="overall.html">All-time</a>
-      				</div>
-    			</li>
-			</ul>
-
-			<ul class="navbar-nav ml-auto nav-pills">
-				<li class="nav-item "><a class="nav-link active bg-danger" href="contact.html"><i class="fa fa-phone" style="margin-right:3px; color: white;"></i>Contact Us</a></li>
-			</ul>
-			</ul>
-		</div>
-	</nav>
-	</div>
-
-	<div class="container">
-			<div class="jumbotron">
-				<h1 id="h">2018</h1>
-			</div>
-			<div class="subheading"><h1 class="card-title">Record</h1></div>
-			<div class="body">
-				<table class="table table-dark " id="table">
-				<thead>
-					<tr>
-						<th>Matches Played</th>
-						<th>Matches Won</th>
-						<th>Matches Drawn</th>
-						<th>Matches Lost</th>
-						<th>GS</th>
-						<th>GC</th>
-						<th>GD</th>
-						<th>Win percentage</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>33</td>
-						<td>23</td>
-						<td>5</td>
-						<td>5</td>
-						<td>118</td>
-						<td>53</td>
-						<td>65</td>
-						<td id="top">69.69%</td>
-					</tr>
-				</tbody>
-			</table>
-			</div>
-		
+	<main>
+		<div class="container">
+				<div class="jumbotron">
+					<h1 id="h">2018</h1>
+				</div>
+				<div class="subheading"><h1 class="card-title">Record</h1></div>
+				<div class="body">
+					<table class="table table-dark " id="table">
+					<thead>
+						<tr>
+							<th>Matches Played</th>
+							<th>Matches Won</th>
+							<th>Matches Drawn</th>
+							<th>Matches Lost</th>
+							<th>GS</th>
+							<th>GC</th>
+							<th>GD</th>
+							<th>Win percentage</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>33</td>
+							<td>23</td>
+							<td>5</td>
+							<td>5</td>
+							<td>118</td>
+							<td>53</td>
+							<td>65</td>
+							<td id="top">69.69%</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
 			
-			<div class="subheading"><h1 class="card-title">Goal Scorers</h1></div>
-			<div class="body">
-				<table class="table table-dark" id="table">
-				<thead>
-					<tr>
-						<th style="padding-left:7px;">Rank</th>
-						<th>Name</th>
-						<th>Goals <span></span></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td style="padding-left:7px;" id="top">1</td>
-						<td>Asad</td>
-						<td>32</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">2</td>
-						<td>Abbas</td>
-						<td>20</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">3</td>
-						<td>Meesam</td>
-						<td>18</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">4</td>
-						<td>Ibrahim</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">4</td>
-						<td>Kumail</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">5</td>
-						<td>Irtaza</td>
-						<td>6</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">5</td>
-						<td>Safi</td>
-						<td>6</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">6</td>
-						<td>Burair</td>
-						<td>5</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">6</td>
-						<td>Haider</td>
-						<td>5</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">7</td>
-						<td>Muhammad</td>
-						<td>4</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">8</td>
-						<td>Irtiza</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">8</td>
-						<td>Hussain</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">9</td>
-						<td>Ammar</td>
-						<td>2</td>
-					</tr>
-					<tr>
-						<td style="padding-left:7px;">10</td>
-						<td>Salman</td>
-						<td>1</td>
-					</tr>
-				</tbody>
-			</table>
-		
-			<div class="subheading"><h1 class="card-title">Assists</h1></div>
-			<div class="body">
-				<table class="table table-dark" id="table">
-				<thead>
-					<tr>
-						<th>Rank</th>
-						<th>Name</th>
-						<th>Assists</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td id="top">1</td>
-						<td>Irtaza</td>
-						<td>13</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>Kumail</td>
-						<td>11</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>Burair</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td>Meesam</td>
-						<td>9</td>
-					</tr>
-					<tr>
-						<td>5</td>
-						<td>Abbas</td>
-						<td>8</td>
-					</tr>
-					<tr>
-						<td>6</td>
-						<td>Asad</td>
-						<td>5</td>
-					</tr>
-					<tr>
-						<td>6</td>
-						<td>Ibrahim</td>
-						<td>5</td>
-					</tr>
-					<tr>
-						<td>7</td>
-						<td>Ammar</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td>8</td>
-						<td>Safi</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td>9</td>
-						<td>Haider</td>
-						<td>1</td>
-					</tr>
-					<tr>
-						<td>9</td>
-						<td>Hussain</td>
-						<td>1</td>
-					</tr>
-					<tr>
-						<td>9</td>
-						<td>Baqar</td>
-						<td>1</td>
-					</tr>
-				</tbody>
-			</table>
+				
+				<div class="subheading"><h1 class="card-title">Goal Scorers</h1></div>
+				<div class="body">
+					<table class="table table-dark" id="table">
+					<thead>
+						<tr>
+							<th style="padding-left:7px;">Rank</th>
+							<th>Name</th>
+							<th>Goals <span></span></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="padding-left:7px;" id="top">1</td>
+							<td>Asad</td>
+							<td>32</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">2</td>
+							<td>Abbas</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">3</td>
+							<td>Meesam</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">4</td>
+							<td>Ibrahim</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">4</td>
+							<td>Kumail</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">5</td>
+							<td>Irtaza</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">5</td>
+							<td>Safi</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">6</td>
+							<td>Burair</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">6</td>
+							<td>Haider</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">7</td>
+							<td>Muhammad</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">8</td>
+							<td>Irtiza</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">8</td>
+							<td>Hussain</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">9</td>
+							<td>Ammar</td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<td style="padding-left:7px;">10</td>
+							<td>Salman</td>
+							<td>1</td>
+						</tr>
+					</tbody>
+				</table>
+			
+				<div class="subheading"><h1 class="card-title">Assists</h1></div>
+				<div class="body">
+					<table class="table table-dark" id="table">
+					<thead>
+						<tr>
+							<th>Rank</th>
+							<th>Name</th>
+							<th>Assists</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="top">1</td>
+							<td>Irtaza</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Kumail</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Burair</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Meesam</td>
+							<td>9</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Abbas</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Asad</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Ibrahim</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>Ammar</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>Safi</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Haider</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Hussain</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Baqar</td>
+							<td>1</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+
+				<div class="subheading"><h1 class="card-title">Hattricks</h1></div>
+				<div class="body">
+					<table class="table table-dark table-striped" id="table">
+					<thead>
+						<tr>
+							<th style="padding-left:30px;">Rank</th>
+							<th>Name</th>
+							<th>Hatricks <span></span></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="padding-left:30px;">1</td>
+							<td>Asad</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td style="padding-left:30px;">2</td>
+							<td>Meesam</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td style="padding-left:30px;">3</td>
+							<td>Safi</td>
+							<td>1</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="subheading">
+					<h1 class="card-title">Head-to-Head</h1>
+				</div>
+				<div class="body">
+					<table class="table table-dark " id="table">
+					<thead>
+						<tr class="subheading">
+							<th>Opponent</th>
+							<th>Played</th>
+							<th>Home\Away</th>
+							<th>Won</th>
+							<th>Lost</th>
+							<th>Drawn</th>
+							<th>GS</th>
+							<th>GC</th>
+							<th>GD</th>
+						</tr>
+					</thead>
+					<tbody class="subheading">
+						<tr class="subheading">
+							<td>Stallions FC</td>
+							<td>5</td>
+							<td>0\5</td>
+							<td>3</td>
+							<td>1</td>
+							<td>1</td>
+							<th>14</th>
+							<th>6</th>
+							<th>8</th>
+						</tr>
+						<tr class="subheading">
+							<td>FV-United</td>
+							<td>3</td>
+							<td>1\2</td>
+							<td>2</td>
+							<td>-</td>
+							<td>1</td>
+							<th>15</th>
+							<th>6</th>
+							<th>9</th>
+						</tr>
+						<tr>
+							<td>Ammar FC</td>
+							<td>3</td>
+							<td>0\3</td>
+							<td>3</td>
+							<td>-</td>
+							<td>-</td>
+							<th>14</th>
+							<th>7</th>
+							<th>7</th>
+						</tr>
+						<tr>
+							<td>Rovers FC</td>
+							<td>2</td>
+							<td>0\1</td>
+							<td>-</td>
+							<td>2</td>
+							<td>-</td>
+							<th>4</th>
+							<th>7</th>
+							<th>-3</th>
+						</tr>
+						<tr>
+							<td>Sarela FC</td>
+							<td>2</td>
+							<td>1\1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>-</td>
+							<th>4</th>
+							<th>5</th>
+							<th>-1</th>
+						</tr>
+						<tr>
+							<td>Rebels FC</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>2</th>
+							<th>-</th>
+							<th>-</th>
+						</tr>
+						<tr>
+							<td>Aces FC</td>
+							<td>1</td>
+							<td>1\0</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>5</th>
+							<th>0</th>
+							<th>5</th>
+						</tr>
+						<tr>
+							<td>Blackburn United</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>4</th>
+							<th>-</th>
+							<th>4</th>
+						</tr>
+						<tr>
+							<td>Zephyrs FC</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>7</th>
+							<th>2</th>
+							<th>5</th>
+						</tr>
+						<tr>
+							<td>Naryal FC</td>
+							<td>1</td>
+							<td>1\0</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>5</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+						<tr>
+							<td>Bahadurabad FC</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>17</th>
+							<th>0</th>
+							<th>17</th>
+						</tr>
+						<tr>
+							<td>Mario Brothers</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>-</td>
+							<td>1</td>
+							<td>-</td>
+							<th>1</th>
+							<th>3</th>
+							<th>-2</th>
+						</tr>
+						<tr>
+							<td>FC Spyders</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>4</th>
+							<th>3</th>
+							<th>1</th>
+						</tr>
+						<tr>
+							<td>Sindh FC</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>5</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+						<tr>
+							<td>Awaami FC</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>-</th>
+							<th>1</th>
+							<th>-1</th>
+						</tr>
+						<tr>
+							<td>Elite United</td>
+							<td>1</td>
+							<td>0\1</td>
+							<td>1</td>
+							<td>-</td>
+							<td>-</td>
+							<th>5</th>
+							<th>3</th>
+							<th>2</th>
+						</tr>
+					</tbody>
+				</table>
+				</div>	
+
+
+				<div id="cardfooter"><p>FC-RIZVIA<i class="fa fa-copyright"></i></p></div>
+				</div>
 			</div>
+		</div>
+	</main>
 
-			<div class="subheading"><h1 class="card-title">Hattricks</h1></div>
-			<div class="body">
-				<table class="table table-dark table-striped" id="table">
-				<thead>
-					<tr>
-						<th style="padding-left:30px;">Rank</th>
-						<th>Name</th>
-						<th>Hatricks <span></span></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td style="padding-left:30px;">1</td>
-						<td>Asad</td>
-						<td>4</td>
-					</tr>
-					<tr>
-						<td style="padding-left:30px;">2</td>
-						<td>Meesam</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td style="padding-left:30px;">3</td>
-						<td>Safi</td>
-						<td>1</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<div class="subheading">
-				<h1 class="card-title">Head-to-Head</h1>
-			</div>
-			<div class="body">
-				<table class="table table-dark " id="table">
-				<thead>
-					<tr class="subheading">
-						<th>Opponent</th>
-						<th>Played</th>
-						<th>Home\Away</th>
-						<th>Won</th>
-						<th>Lost</th>
-						<th>Drawn</th>
-						<th>GS</th>
-						<th>GC</th>
-						<th>GD</th>
-					</tr>
-				</thead>
-				<tbody class="subheading">
-					<tr class="subheading">
-						<td>Stallions FC</td>
-						<td>5</td>
-						<td>0\5</td>
-						<td>3</td>
-						<td>1</td>
-						<td>1</td>
-						<th>14</th>
-						<th>6</th>
-						<th>8</th>
-					</tr>
-					<tr class="subheading">
-						<td>FV-United</td>
-						<td>3</td>
-						<td>1\2</td>
-						<td>2</td>
-						<td>-</td>
-						<td>1</td>
-						<th>15</th>
-						<th>6</th>
-						<th>9</th>
-					</tr>
-					<tr>
-						<td>Ammar FC</td>
-						<td>3</td>
-						<td>0\3</td>
-						<td>3</td>
-						<td>-</td>
-						<td>-</td>
-						<th>14</th>
-						<th>7</th>
-						<th>7</th>
-					</tr>
-					<tr>
-						<td>Rovers FC</td>
-						<td>2</td>
-						<td>0\1</td>
-						<td>-</td>
-						<td>2</td>
-						<td>-</td>
-						<th>4</th>
-						<th>7</th>
-						<th>-3</th>
-					</tr>
-					<tr>
-						<td>Sarela FC</td>
-						<td>2</td>
-						<td>1\1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>-</td>
-						<th>4</th>
-						<th>5</th>
-						<th>-1</th>
-					</tr>
-					<tr>
-						<td>Rebels FC</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>2</th>
-						<th>-</th>
-						<th>-</th>
-					</tr>
-					<tr>
-						<td>Aces FC</td>
-						<td>1</td>
-						<td>1\0</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>5</th>
-						<th>0</th>
-						<th>5</th>
-					</tr>
-					<tr>
-						<td>Blackburn United</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>4</th>
-						<th>-</th>
-						<th>4</th>
-					</tr>
-					<tr>
-						<td>Zephyrs FC</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>7</th>
-						<th>2</th>
-						<th>5</th>
-					</tr>
-					<tr>
-						<td>Naryal FC</td>
-						<td>1</td>
-						<td>1\0</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>5</th>
-						<th>2</th>
-						<th>3</th>
-					</tr>
-					<tr>
-						<td>Bahadurabad FC</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>17</th>
-						<th>0</th>
-						<th>17</th>
-					</tr>
-					<tr>
-						<td>Mario Brothers</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>-</td>
-						<td>1</td>
-						<td>-</td>
-						<th>1</th>
-						<th>3</th>
-						<th>-2</th>
-					</tr>
-					<tr>
-						<td>FC Spyders</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>4</th>
-						<th>3</th>
-						<th>1</th>
-					</tr>
-					<tr>
-						<td>Sindh FC</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>5</th>
-						<th>2</th>
-						<th>3</th>
-					</tr>
-					<tr>
-						<td>Awaami FC</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>-</th>
-						<th>1</th>
-						<th>-1</th>
-					</tr>
-					<tr>
-						<td>Elite United</td>
-						<td>1</td>
-						<td>0\1</td>
-						<td>1</td>
-						<td>-</td>
-						<td>-</td>
-						<th>5</th>
-						<th>3</th>
-						<th>2</th>
-					</tr>
-				</tbody>
-			</table>
-			</div>	
-
-
-			<div id="cardfooter"><p>FC-RIZVIA<i class="fa fa-copyright"></i></p></div>
-			</div>
+	<footer></footer>
 
 </body>
 </html>
