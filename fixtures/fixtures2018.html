@@ -2,67 +2,26 @@
 <html>
 <head>
 	<title>Fixtures 2018</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/fixtures.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/fixtures.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../js/popper.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script> 
+        $(function(){
+          $("#header").load("../header.html");
+        });
+    </script> 
 </head>
 <body>
-	<div>
-		<nav class="navbar  navbar-expand-sm navbar-dark fixed-top">
-		<div class="navbar-header">
-			<a id="navhead" href="#" name="top" class="navbar-brand"><img src="images/logo.jpg" alt="logo" style="width:40px; padding-right: 3px;">FC RIZVIA</a>
 
-			<!-- Toggler/collapsibe Button -->
-  		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
+	<header>
+		<div id="header"></div>
+	</header>
 
-		</div>
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav nav-pills">
-				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-				<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-				<li class="nav-item"><a class="nav-link" href="squad.html">Squad</a></li>
-
-				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white; margin-right:25px;">
-    				Fixtures</a>
-      				<div class="dropdown-menu">
-						<a class="dropdown-item" href="fixtures2021.html">2021</a>
-						<a class="dropdown-item" href="fixtures2020.html">2020</a>
-        				<a class="dropdown-item" href="fixtures2019.html">2019</a>
-        				<a class="dropdown-item active" href="">2018</a>
-        				<a class="dropdown-item" href="fixtures2017.html">2017</a>
-        				<a class="dropdown-item" href="allfixtures.html">All-fixtures</a>
-      				</div>
-    			</li>
-
-				<!-- Dropdown -->
-    			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white;">
-    				Stats</a>
-      				<div class="dropdown-menu">
-						<a class="dropdown-item" href="2021.html">2021</a>
-        				<a class="dropdown-item" href="2020.html">2020</a>
-        				<a class="dropdown-item" href="2019.html">2019</a>
-        				<a class="dropdown-item" href="2018.html">2018</a>
-        				<a class="dropdown-item" href="2017.html">2017</a>
-        				<a class="dropdown-item" href="overall.html">All-time</a>
-      				</div>
-    			</li>
-			</ul>
-
-			<ul class="navbar-nav ml-auto nav-pills">
-				<li class="nav-item "><a class="nav-link active bg-danger" href="contact.html"><i class="fa fa-phone" style="margin-right:3px; color: white;"></i>Contact Us</a></li>
-			</ul>
-			</ul>
-		</div>
-	</nav>
-	</div>
-
-	<div class="container">
+	<main>
+		<div class="container">
 			<div class="jumbotron">
 				<h1><i class="fa fa-calendar" style="margin-right: 10px;"></i>Fixtures 2018</h1>
 			</div>
@@ -381,6 +340,10 @@
 				</tbody>
 			</table>
 			</div>
+		</div>
+	</main>
+
+	<footer></footer>
 
 </body>
 </html>
