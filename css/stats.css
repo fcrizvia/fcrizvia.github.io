@@ -1,0 +1,113 @@
+.stats
+{
+	/*background: url("images/royal.jpg") no-repeat fixed center;*/
+	background: black;
+}
+.stats i
+{
+	color: white;
+}
+
+.stats #h	
+{
+	color: white;
+	font-weight:500;
+	margin-bottom: 20px;
+}
+
+.stats .container
+{
+	margin-top: 7%;
+	text-align:center;
+}	
+
+.stats .jumbotron
+{
+	background: url("images/Frost.jpg") no-repeat fixed center;
+	color: white;
+	font-weight: 500;
+	text-shadow: 0 0 2px white;
+}
+
+.stats .card-title
+{
+	background:#210a3a;	
+}
+
+.stats .card-header
+{
+	background: black;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.stats .table
+{
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.stats #toplinks
+{
+	display:inline-block;
+}
+
+.stats #h1
+{
+	font-size:60px;
+	color: black;
+	font-weight: 600;
+	/*border: 2px solid red;*/
+	padding-left: 50px;
+	text-shadow: 0 0 3px black;
+}
+
+.stats #hr
+{
+	width: 700px;
+	margin-right: 1000px;
+	padding-right: 50px;
+	/*border: 2px solid purple;*/
+	float: left;
+}
+
+.stats #links
+{
+	padding-left: 50px;
+	display: inline-block;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.stats #linkul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.stats #cardfooter
+{
+	background: none;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.stats .record
+{
+	text-align: center;
+}
+
+.stats .subheading
+{
+	text-align: center;
+	color: white;
+	margin-top:10px;
+}
+
+.stats #top
+{
+	background: #032d70;
+}
